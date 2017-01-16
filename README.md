@@ -1,8 +1,10 @@
 # Capistrano::SlackNotify
 
-Capistrano 2 deploy notifier for Slack.
+Capistrano 3 deploy notifier for Slack.
 
-![Sample Slack output for success.](https://raw.githubusercontent.com/parkr/capistrano-slack-notify/master/screenshot.png)
+![Sample Slack output for success.](https://raw.githubusercontent.com/reivaxm/capistrano-slack-notify/master/screenshot.png)
+
+Thanks to pakr for the original [gem](https://github.com/parkr/capistrano-slack-notify)
 
 ## Installation
 
@@ -19,7 +21,7 @@ And then execute:
 Or install it yourself as:
 
     $ gem install capistrano-slack-notify
-
+ 
 ## Usage
 
 `capistrano-slack-notify` defines two tasks:
@@ -60,9 +62,9 @@ set :slack_app_name, 'example-app' # defaults to :application
 set :slack_color,    false # defaults to true
 set :slack_destination, fetch(:stage, 'production') # where your code is going
 ```
-
+ 
 ## Contributing
-
+ 
 1. Fork it ( https://github.com/parkr/capistrano-slack-notify/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
