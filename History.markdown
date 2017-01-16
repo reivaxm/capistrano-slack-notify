@@ -1,5 +1,9 @@
-## 1.3.3 / 2016-07-19
+## 2.0.0 / 2016-01-16
 
+  * Convert gem to Capistrano 3
+
+## 1.3.3 / 2016-07-19
+ 
   * Rename `revision` to `rev` to avoid collision with Capistrano method (#22)
 
 ## 1.3.2 / 2015-11-03
